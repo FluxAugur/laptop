@@ -30,6 +30,7 @@ fancy_echo "Installing watch, to execute a program periodically and show the out
   brew install watch
 
 fancy_echo "Installing graphviz, npm, and pow! Trust me, you want them ..."
+  brew install cairo pango
   brew install graphviz
   brew install npm --deps
   curl get.pow.cx | sh
